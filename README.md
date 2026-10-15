@@ -5,27 +5,34 @@ A simple Java CRUD application for managing students.
 ## Features
 
 - Create a student
-- Read all students
+- Read students
 - Update student information
 - Delete a student
 
 ## Requirements
 
-- Java 25 or compatible version
+- Java 17 or newer
 
 ## How to run
 
-Compile the application:
+Compile:
 
 ```bash
 javac -d out src/main/java/com/university/crud/Main.java
+```
 
-Run the application:
+Run:
 
+```bash
 java -cp out com.university.crud.Main
+```
 
-Technologies
+## Note
+
+Student records are stored in memory and are cleared when the application exits.
+
+## Technologies
+
 - Java
 - Git
 - GitHub
-```
